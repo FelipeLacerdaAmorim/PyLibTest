@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
-Name: my_keycloak_test_lib_fel
+Name: key_lib_test
 Version: 0.1
 Summary: Uma biblioteca de exemplo
-Home-page: <https://github.com/FelipeLacerdaAmorim/PyLibTest
+Home-page: https://github.com/FelipeLacerdaAmorim/PyLibTest
 Author: Felipe Lacerda
 Author-email: joaofelipe.amorim@aluno.uece.br
 Classifier: Programming Language :: Python :: 3
@@ -10,6 +10,10 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.12
 Description-Content-Type: text/markdown
+Requires-Dist: fastapi_keycloak
+Requires-Dist: Pyjwt
+Requires-Dist: requests
+Requires-Dist: starlette
 
 # Minha Biblioteca
 

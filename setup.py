@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my_keycloak_test_lib_fel',
+    name='key_lib_test',
     version='0.1',
     packages=find_packages(),
     description='Uma biblioteca de exemplo',
@@ -16,4 +16,10 @@ setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.12',
+    install_requires=[
+        'fastapi_keycloak',
+        'Pyjwt',
+        'requests',
+        'starlette'
+    ],
 )

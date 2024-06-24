@@ -1,8 +1,0 @@
-README.md
-setup.py
-PyFelTest/__init__.py
-PyFelTest/modulo_keycloak.py
-my_keycloak_test_lib_fel.egg-info/PKG-INFO
-my_keycloak_test_lib_fel.egg-info/SOURCES.txt
-my_keycloak_test_lib_fel.egg-info/dependency_links.txt
-my_keycloak_test_lib_fel.egg-info/top_level.txt
